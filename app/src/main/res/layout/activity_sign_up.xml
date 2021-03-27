@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fe93c3"
+    android:gravity="center"
+    tools:context=".SignUp">
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailid"
+        android:textColor="#f5f8f8"
+        android:hint="Email"
+        ></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+        android:textColor="#f5f8f8"
+        android:hint="Username"
+        ></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passid"
+        android:textColor="#f5f8f8"
+        android:hint="Password"
+        ></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmpassid"
+        android:textColor="#f5f8f8"
+        android:hint="Confirm Password"
+        ></EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/signupid"
+        android:textAllCaps="false"
+
+        android:text="Sign in"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="#8a1a54"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+
+</LinearLayout>
