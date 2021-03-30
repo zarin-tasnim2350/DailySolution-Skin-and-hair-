@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText username,password;
@@ -24,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
         signup=findViewById(R.id.signupbuttonid);
         textView1=findViewById(R.id.textview1id);
 
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intents= new Intent(MainActivity.this,SignUp.class);
+                startActivity(intents);
+            }
+        });
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,11 +40,23 @@ public class MainActivity extends AppCompatActivity {
                 String passWord= password.getText().toString();
                 if (userName.equals("zarin") && passWord.equals("1234")){
 
-                    Intent intent= new Intent(MainActivity.this,SignUp.class);
+                    Intent intent= new Intent(MainActivity.this,HairOrskin.class);
                     startActivity(intent);
 
                  }
+
+
+                else{
+
+                    Toast toast1= Toast.makeText(MainActivity.this,"Incorrect username or password",Toast.LENGTH_SHORT);
+                    toast1.show();
+
+
+                }
+
             }
+
+
         });
 
     }

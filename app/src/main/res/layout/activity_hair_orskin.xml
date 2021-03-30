@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fe93c3"
+    android:gravity="center"
+    tools:context=".HairOrskin">
+
+    <TextView
+        android:id="@+id/hairNskinid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/hair_or_skin"
+        android:textColor="#f5f8f8"
+
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/hairid"
+        android:layout_marginTop="20sp"
+        android:text="@string/hair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#f5f8f8"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:id="@+id/skinid"
+        android:layout_marginTop="20sp"
+        android:text="@string/skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#f5f8f8"
+        android:textSize="20sp"
+        ></TextView>
+
+
+</LinearLayout>

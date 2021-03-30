@@ -51,6 +51,24 @@
         ></EditText>
     <Button
         android:layout_marginTop="20dp"
+        android:id="@+id/registerid"
+        android:textAllCaps="false"
+
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="#8a1a54"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
         android:id="@+id/signupid"
         android:textAllCaps="false"
 

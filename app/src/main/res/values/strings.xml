@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="hair_or_skin">Choose your problem type:</string>
+    <string name="hair">Hair Problem</string>
+    <string name="skin">Skin Problem</string>
+    <string name="skin_Problem">Mark your problem to get soulution:</string>
+    <string name="oily">Oily skin</string>
+    <string name="Acne">Acne Prone skin</string>
+    <string name="Pigmentation">Pigmented skin</string>
+    <string name="Scars">Acne scars </string>
+    <string name="chooseButton">Click the button for getting soulution</string>
 </resources>
