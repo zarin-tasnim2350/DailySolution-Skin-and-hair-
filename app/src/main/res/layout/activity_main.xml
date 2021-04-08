@@ -21,13 +21,14 @@
         android:layout_marginRight="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/usernameid"
+        android:id="@+id/emailid"
         android:textColor="#f5f8f8"
-        android:hint="Username"
+        android:hint="Email"
         android:drawableLeft="@drawable/ic_action_name"
         ></EditText>
     <EditText
-        android:inputType="text"
+
+        android:inputType="textPassword"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"

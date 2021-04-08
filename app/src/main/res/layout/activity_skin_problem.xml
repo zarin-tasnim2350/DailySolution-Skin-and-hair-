@@ -12,6 +12,7 @@
     tools:context=".SkinProblem">
 
     <TextView
+        android:id="@+id/typeid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="29sp"
@@ -60,6 +61,7 @@
         android:textSize="24sp"
         android:textStyle="bold"></CheckBox>
     <TextView
+        android:id="@+id/clickbuttongetsolution"
         android:layout_marginTop="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

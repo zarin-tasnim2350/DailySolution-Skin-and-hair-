@@ -8,5 +8,20 @@
     <string name="Acne">Acne Prone skin</string>
     <string name="Pigmentation">Pigmented skin</string>
     <string name="Scars">Acne scars </string>
-    <string name="chooseButton">Click the button for getting soulution</string>
+    <string name="chooseButton">Click the button for your suggestive products:</string>
+    <string-array name="Products_name">
+        <item>The Body Shop tea tree oil</item>
+        <item>The Body Shop tea tree facewash</item>
+        <item>The Body Shop tea tree pore minimiser</item>
+        <item>Tea Tree Skin Clearing Mattifying Toner </item>
+        <item>Tea Tree Anti-Imperfection Night Mask </item>
+        <item>Himalayan Charcoal Purifying Glow Mask </item>
+        <item>CeraVe Foaming Facial Cleanser (Face Wash)</item>
+        <item> Paula’s Choice Skin Perfecting 2% BHA Liquid (Exfoliant)</item>
+        <item> Paula’s Choice Invisible Finish Gel </item>
+
+       <item>Aloe Gentle Facial Wash  </item>
+        <item>  SEAWEED OIL BALANCING TONER</item>
+        <item>Seaweed Cleansing Facial Wash </item>
+    </string-array>
 </resources>
