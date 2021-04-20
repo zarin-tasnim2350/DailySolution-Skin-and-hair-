@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#fe93c3"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".TreeTeaOil">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/oiltreeteaforbig"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textviewoneid"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/treeTeaoil"
+        ></TextView>
+    <TextView
+        android:id="@+id/textviewtwoid"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_description"
+        ></TextView>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oilteatreeid"
+        android:textColor="#f5f8f8"
+        android:hint="Type Product Code"
+        ></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantityid"
+        android:textColor="#f5f8f8"
+        android:hint="Type the number of products you want"
+        ></EditText>
+    <Button
+        android:id="@+id/cartbuttonid"
+        android:textAllCaps="false"
+
+        android:text="Add to cart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="#8a1a54"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

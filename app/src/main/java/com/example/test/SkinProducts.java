@@ -2,6 +2,7 @@ package com.example.test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -33,6 +34,8 @@ public class SkinProducts extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String value = ProductNames[position];
                 Toast.makeText(SkinProducts.this,value,Toast.LENGTH_SHORT).show();
+                Intent intent= new Intent(SkinProducts.this,TreeTeaOil.class);
+                startActivity(intent);
             }
         });
     }

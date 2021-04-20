@@ -11,9 +11,9 @@
     tools:context=".MainActivity">
     <ImageView
         android:layout_marginBottom="20dp"
-        android:src="@mipmap/ic_launcher_round"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:src="@drawable/agianblue"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         ></ImageView>
     <EditText
         android:layout_marginBottom="20dp"
@@ -43,7 +43,7 @@
         android:id="@+id/loginbuttonid"
         android:textAllCaps="false"
 
-        android:text="Login"
+        android:text="Log in"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
 

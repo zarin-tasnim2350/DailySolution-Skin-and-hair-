@@ -20,8 +20,13 @@
         <item> Paula’s Choice Skin Perfecting 2% BHA Liquid (Exfoliant)</item>
         <item> Paula’s Choice Invisible Finish Gel </item>
 
-       <item>Aloe Gentle Facial Wash  </item>
+        <item>Aloe Gentle Facial Wash  </item>
         <item>  SEAWEED OIL BALANCING TONER</item>
         <item>Seaweed Cleansing Facial Wash </item>
     </string-array>
+    <string name="treeTeaoil">Name:The Body Shop Tea Tree Oil,
+        Price:800tk, Quantity: 10ml, ProductCode:TBSO10
+    </string>
+    <string name="full_description"> touch here to see full descripton and usage of this product.</string>
+    <string name="thanks">Thanks for purchasing,Stay connected with us</string>
 </resources>
